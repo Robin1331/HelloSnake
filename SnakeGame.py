@@ -29,3 +29,10 @@ def check_collisions():
 
 def game_over():
     pass
+
+
+window = Tk()
+window.title("SnakeGame")
+window.resizable(False, False)
+
+window.mainloop()
