@@ -7,13 +7,23 @@ SPEED = 50
 SPACE_SIZE = 50
 BODY_PARTS = 3
 SNAKE_COLOR = "#4eba6b"
-FOOD_COLOR = "#ff0000"
+FOOD_COLOR = "#d60202"
 BACKROUND_COLOR = "#000000"
 
 
 
 class Snake:
-    pass
+
+    def __init__(self):
+        self.body_size = BODY_PARTS
+        self.coordinates + []
+        self.squares = []
+
+        for i in range(0, BODY_PARTS):
+            self.coordinates.append([0, 0])
+            
+
+
 
 class Food:
 
